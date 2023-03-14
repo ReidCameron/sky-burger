@@ -81,7 +81,7 @@ let init = () => {
             {
                 type: "Bottombun",
                 x: screen.width/2,
-                y: Math.min(screen.height*0.90,screen.height*.90 - toppingSize.y),
+                y: Math.min(screen.height*0.90,screen.height*.85 - toppingSize.y),
                 a: 0,
                 tilt: 0,
                 id:`tracker`
