@@ -8,9 +8,10 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 app.use('/',(req, res)=>{
-    res.render('index');
+    res.sendFile(path.join(__dirname, "../public/index.html"))
 })
 
+app.listen(3000, ()=>{});
 //serverless
 const handler = serverless(app);
 module.exports.handler = async (event, context) => {
