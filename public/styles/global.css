@@ -3,22 +3,22 @@ html, body{
     padding: 0;
     margin: 0;
     width: 100vw;
-    /* height: 100vh; */
+    height: 100%;
     overflow: hidden;
     position: relative;
     z-index: 0;
     background-color: black;
+    overflow: hidden;
 }
 
-body {
+/* body {
     min-height: 100vh;
-    /* mobile viewport bug fix */
     min-height: -webkit-fill-available;
   }
   
 html {
 height: -webkit-fill-available;
-}
+} */
 
 #MainMenu, #Game, #levelModal, #endModal, #failedModal{
     position: absolute;
