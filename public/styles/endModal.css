@@ -1,0 +1,123 @@
+#EM-outer-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#EM-inner-wrapper{
+    position: relative;
+    background-image: url('../assets/white-notepad.png');
+    /* filter: saturate(1.5); */
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    aspect-ratio: 1209 / 1869;
+    margin: 20px;
+    /* padding: 5%; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .modal-shadow{
+    position: absolute;
+    top: 6.3%;
+    left: 0;
+    width: 100%;
+    height: 93.7%;
+    box-shadow: 4px 4px 2px #0008;
+    pointer-events: none;
+} */
+#end-shadow{
+    top: 6.8%;
+    height: 92.8%;
+    /* filter: blur(1px); */
+    /* background-color: black; */
+    translate: -0.5px -0.5px;
+    z-index: -1;
+    aspect-ratio: 1209 / 1869;
+
+}
+#order-up-wrapper{
+    position: relative;
+    /* top: -3%; */
+    width: 100%;
+    height: 11%;
+    text-align: center;
+}
+#order-up{
+    position: relative;
+    top: -33%;
+    width: 78%;
+    /* rotate: z 1deg; */
+}
+
+#continue-btn-wrapper-end{
+    display: flex;
+    align-items: end;
+    padding-bottom: 10%;
+}
+#price-breakdown{
+    display: grid;
+    grid-template-rows: repeat(6,1fr);
+    background-color: #999;
+    gap: 1px;
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #999;
+    margin-top: 2rem;
+    border-radius: 2px;
+}
+.wt-box{
+    color: #00008c;
+    background-color: white;
+    border-radius: 2px;
+
+    width: 90%;
+}
+.pb{
+    color: #00008c;
+    background-color: white;
+    border-radius: 2px;
+
+    height: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 0;
+    padding-left: 15%;
+}
+#burger-price-title,#order-tip,#order-total{
+    border: 1px solid #999;
+    
+}
+
+#burger-price-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+#order-tip,#order-total{
+    display: flex;
+    align-items: flex-end;
+    padding: 2px;
+}
+#order-tip{
+    font-size: 2rem;
+    color: red;
+    margin-top: 4rem;
+    
+}
+#order-total{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.order-label{
+    display: inline-block;
+    font-size: 1rem;
+    color: #555;
+    width: 17%;
+}

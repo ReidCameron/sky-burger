@@ -1,0 +1,91 @@
+#LM-outer-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#LM-inner-wrapper{
+    position: relative;
+    background-image: url('../assets/yellow-notepad.png');
+    filter: saturate(1.5);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    aspect-ratio: 1208 / 1860;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-shadow{
+    position: absolute;
+    top: 6.3%;
+    left: 0;
+    width: 100%;
+    height: 93.6%;
+    box-shadow: 4px 4px 2px #0008;
+    pointer-events: none;
+}
+#burger-grid{
+    padding-top: 20px;
+    display: grid;
+    column-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.preview-topping{
+    width: 80px;
+    height: 62px;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* position: relative; */
+}
+.preview-topping-count{
+    font-size: 2rem;
+    color: #00008c;
+}
+#LM-inner-wrapper label{
+    font-size: x-large;
+    /* color: black; */
+    /* stroke: white;
+    stroke-width: 5px; */
+}
+#new-order-wrapper{
+    position: relative;
+    /* top: -3%; */
+    width: 100%;
+    height: 11%;
+    text-align: center;
+}
+#new-order{
+    position: relative;
+    top: -30%;
+    width: 90%;
+    rotate: z 1deg;
+}
+#order-number-label{
+    color: #ff6446;
+}
+#order-name-label{
+    color: #00008c;
+}
+#order-div{
+    border-bottom: 2px solid black;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+#continue-btn-wrapper{
+    display: flex;
+    flex: 1;
+    align-items: end;
+    padding-bottom: 7%;
+    z-index: 100;
+}

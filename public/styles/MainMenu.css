@@ -1,0 +1,39 @@
+#MM-wrapper{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    /* height: 100vh; */
+    height: 100%;
+    background: linear-gradient(#0073ff, #c7e0ff );
+    align-items: center;
+}
+#MM-title{
+    text-align: center;
+    font-size: 5rem;
+    margin: 1rem;
+    color: white;
+    text-shadow: 0px 1px 10px black, 0px 3px 5px black; 
+}
+#MM-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.MM-btn{
+    width: 80%;
+    font-size: 3rem;
+    background: linear-gradient(#009dff,#0041da, #0054c9);
+    color: white;
+    outline: transparent;
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black, inset 1px 1px 10px white;
+}
+.MM-btn:active{
+    background: white;
+    color: #0041da;
+}
+.MM-btn:nth-child(5){
+    filter: hue-rotate(140deg);
+}

@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="styles/styles.css">
+<div id="Game-Wrapper">
+    <div id="levelModal">
+        <%- include('./levelModal.ejs') %>
+    </div>
+    <div id="endModal">
+        <%- include('./endModal.ejs') %>
+    </div>
+    <div id="failedModal">
+        <%- include('./failedModal.ejs') %>
+    </div>
+    <div id="objective-menu">
+        <div id="labels">
+            <div class="money-label-wrapper"><label class="money-label" id="subtotal-label">$00.00</label></div>
+            <div class="money-label-wrapper"><label class="money-label" id="tip-label">00% tip</label></div>
+        </div>
+        <div id="objective-toppings">
+            <div class="topping-objective" id="to-0">
+                <div class="images" id="img-0"></div>
+                <div class="labels" id="label-0"></div>
+            </div>
+            <div class="topping-objective" id="to-1">
+                <div class="images" id="img-1"></div>
+                <div class="labels" id="label-1"></div>
+            </div>
+            <div class="topping-objective" id="to-2">
+                <div class="images" id="img-2"></div>
+                <div class="labels" id="label-2"></div>
+            </div>
+            <div class="topping-objective" id="to-3">
+                <div class="images" id="img-3"></div>
+                <div class="labels" id="label-3"></div>
+            </div>
+            <div class="topping-objective" id="to-4">
+                <div class="images" id="img-4"></div>
+                <div class="labels" id="label-4"></div>
+            </div>
+            <div class="topping-objective" id="to-5">
+                <div class="images" id="img-5"></div>
+                <div class="labels" id="label-5"></div>
+            </div>
+        </div>
+    </div>
+    <div class = "topping Bottombun" id="tracker"></div>
+</div>

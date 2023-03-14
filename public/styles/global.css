@@ -1,0 +1,24 @@
+/* Global */
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    background-color: black;
+}
+
+#MainMenu, #Game, #levelModal, #endModal, #failedModal{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+#Game{
+    display: none;
+}
