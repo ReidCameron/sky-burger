@@ -3,11 +3,21 @@ html, body{
     padding: 0;
     margin: 0;
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     overflow: hidden;
     position: relative;
     z-index: 0;
     background-color: black;
+}
+
+body {
+    min-height: 100vh;
+    /* mobile viewport bug fix */
+    min-height: -webkit-fill-available;
+  }
+  
+html {
+height: -webkit-fill-available;
 }
 
 #MainMenu, #Game, #levelModal, #endModal, #failedModal{
