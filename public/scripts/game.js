@@ -81,7 +81,7 @@ let init = () => {
             {
                 type: "Bottombun",
                 x: screen.width/2,
-                y: Math.min(screen.height*0.90,screen.height - toppingSize.y - screen.height*0.05),
+                y: Math.min(screen.height*0.90,screen.height*.90 - toppingSize.y),
                 a: 0,
                 tilt: 0,
                 id:`tracker`
@@ -246,7 +246,7 @@ function loop(){
         v.y+=speed;
 
         //rotate tilted toppings
-        const tiltVel = 5;
+        const tiltVel = 5; //tilt velocity
         if(v.tilt == 1) v.a+=tiltVel
         else if(v.tilt == -1) v.a-=tiltVel
         
