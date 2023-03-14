@@ -5,7 +5,7 @@
   "scripts":
     {
       "index": "node createIndex.js",
-      "build":"netlify-lambda build app"
+      "build":"netlify-lambda build express"
     },
     "dependencies": {
       "ejs": "^3.1.8",
